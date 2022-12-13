@@ -20,3 +20,14 @@ That's why i'm here. To gain all necessery knowledge to become front-end develop
 ### Some code
 
 `console.log('Hello World!')`
+
+---
+
+### Education
+
+---
+
+### Language
+
+-Russian
+-English(A1)
