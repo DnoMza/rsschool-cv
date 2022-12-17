@@ -10,6 +10,12 @@
 
 ---
 
+### About myself
+
+Will write something soon.
+
+---
+
 ### Skills
 
 Don't have any skills yet -\_-
@@ -29,5 +35,5 @@ That's why i'm here. To gain all necessery knowledge to become front-end develop
 
 ### Language
 
--Russian
--English(A1)
+- Russian
+- English(A1)

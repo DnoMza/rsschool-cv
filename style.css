@@ -3,3 +3,70 @@
   margin: 0;
   box-sizing: border-box;
 }
+/*
+  DEFAULTS: 
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+   */
+
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: rgb(246, 249, 235);
+  color: rgb(23, 21, 16);
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70px;
+  background-color: rgb(201, 202, 190);
+  margin-bottom: 15px;
+}
+nav a {
+  display: inline-block;
+  font-size: larger;
+}
+nav a:link {
+  color: rgb(23, 21, 16);
+  text-decoration: none;
+}
+nav a:visited {
+  /* color: #444; */
+  color: rgb(23, 21, 16);
+}
+nav a:hover {
+  color: rgb(134, 136, 104);
+}
+nav a:active {
+  color: rgb(134, 136, 104);
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.my_photo {
+  width: 300px;
+  border-radius: 50%;
+  border
+}
+
+/* MAIN */
+
+.flex_container{
+  display: flex;
+  justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+section{
+  margin-bottom: 15px;
+  
+}
