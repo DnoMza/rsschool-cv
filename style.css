@@ -16,6 +16,14 @@ body {
   font-size: 2rem;
 }
 
+h2 {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
 .header {
   padding: 0.5rem;
   background-color: #fff4e6;
@@ -26,7 +34,7 @@ body {
 }
 
 .container {
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 nav {
@@ -38,7 +46,7 @@ nav {
   list-style: none;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #343a40;
   padding: 0.5rem 1rem;
@@ -46,12 +54,12 @@ a {
   border-radius: 2rem;
 }
 
-a:active,
-a:visited {
+nav a:active,
+nav a:visited {
   color: #343a40;
 }
 
-a:hover {
+nav a:hover {
   background-color: #e8590c;
   color: #fff;
 }
@@ -66,4 +74,40 @@ a:hover {
 .photo_img {
   width: 30%;
   border-radius: 10rem;
+}
+
+.contacts_ul {
+  list-style: none;
+}
+
+.contacts_ul a {
+  text-decoration: none;
+  color: #e8590c;
+}
+
+.contacts_ul a:active,
+.contacts_ul a:visited {
+  text-decoration: none;
+  color: #e8590c;
+}
+
+.contacts_ul a:hover {
+  color: #ffa94d;
+}
+
+.skills-code {
+  background-color: #fff4e6;
+  display: flex;
+}
+
+.skills {
+  width: 50%;
+}
+
+.skills_ul {
+  list-style: none;
+}
+
+.skills_ul li {
+  margin-bottom: 1rem;
 }

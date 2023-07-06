@@ -23,16 +23,16 @@ A little bit of HTML, a little bit of CSS, a little bit of JavaScript. Not very 
 
 ```
 
-function findUniq(arr) {
-let otherNumber;
-  if(arr[0]==arr[1]){
-    otherNumber=arr[0];
-  }else otherNumber=arr[2];
-  const set=new Set(arr);
-  const [value1, value2]=set.values();
-  if(value1==otherNumber){
-    return value2;
-  }else return value1;
+function findUniq(arr) {<br />
+let otherNumber;<br />
+  if(arr[0]==arr[1]){<br />
+    otherNumber=arr[0];<br />
+  }else otherNumber=arr[2];<br />
+  const set=new Set(arr);<br />
+  const [value1, value2]=set.values();<br />
+  if(value1==otherNumber){<br />
+    return value2;<br />
+  }else return value1;<br />
 }
 
 ```
