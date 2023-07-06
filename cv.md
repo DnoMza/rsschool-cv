@@ -13,7 +13,7 @@ Yan Zhurauski
 
 ## Краткая информация о себе
 
-I'm just dude, who want change something in life :) In this momemt I can't write anything else here.
+I'm just dude, who want change something in life :) On this momemt I can't write anything else here.
 
 ## Навыки
 
