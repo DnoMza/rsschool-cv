@@ -26,7 +26,7 @@ p {
 
 .header {
   padding: 0.5rem;
-  background-color: #fff4e6;
+  background-color: #edf2ff;
 
   display: flex;
   justify-content: space-between;
@@ -50,7 +50,7 @@ nav a {
   text-decoration: none;
   color: #343a40;
   padding: 0.5rem 1rem;
-  border: #e8590c solid 0.2rem;
+  border: #91a7ff solid 0.2rem;
   border-radius: 2rem;
 }
 
@@ -60,7 +60,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  background-color: #e8590c;
+  background-color: #91a7ff;
   color: #fff;
 }
 
@@ -68,7 +68,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   gap: 5rem;
-  background-color: #ffe8cc;
+  background-color: #dbe4ff;
 }
 
 .photo_img {
@@ -82,21 +82,21 @@ nav a:hover {
 
 .contacts_ul a {
   text-decoration: none;
-  color: #e8590c;
+  color: #91a7ff;
 }
 
 .contacts_ul a:active,
 .contacts_ul a:visited {
   text-decoration: none;
-  color: #e8590c;
+  color: #91a7ff;
 }
 
 .contacts_ul a:hover {
-  color: #ffa94d;
+  color: #364fc7;
 }
 
 .skills-code {
-  background-color: #fff4e6;
+  background-color: #edf2ff;
   display: flex;
 }
 
@@ -110,4 +110,10 @@ nav a:hover {
 
 .skills_ul li {
   margin-bottom: 1rem;
+}
+
+.code {
+  padding: 2rem;
+  display: inline-block;
+  background-color: #dbe4ff;
 }
