@@ -3,3 +3,153 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 120rem;
+  font-family: sans-serif;
+  margin: 0 auto;
+  color: #343a40;
+  font-size: 2rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.header {
+  padding: 0.5rem;
+  background-color: #edf2ff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  padding: 1rem 2rem;
+}
+
+nav {
+  width: 50%;
+}
+.nav_ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #343a40;
+  padding: 0.5rem 1rem;
+  border: #91a7ff solid 0.2rem;
+  border-radius: 2rem;
+}
+
+nav a:active,
+nav a:visited {
+  color: #343a40;
+}
+
+nav a:hover {
+  background-color: #91a7ff;
+  color: #fff;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  background-color: #dbe4ff;
+}
+
+.photo_img {
+  width: 30%;
+  border-radius: 10rem;
+}
+
+.contacts_ul {
+  list-style: none;
+}
+
+.contacts_ul a {
+  text-decoration: none;
+  color: #91a7ff;
+}
+
+.contacts_ul a:active,
+.contacts_ul a:visited {
+  text-decoration: none;
+  color: #91a7ff;
+}
+
+.contacts_ul a:hover {
+  color: #364fc7;
+}
+
+.skills-code {
+  background-color: #edf2ff;
+  display: flex;
+}
+
+.skills {
+  width: 50%;
+}
+
+.skills_ul li,
+.education_ul li,
+.languages_ul li {
+  margin: 0 0 1rem 2rem;
+}
+
+.code {
+  padding: 2rem;
+  display: inline-block;
+  background-color: #dbe4ff;
+}
+
+.education {
+  background-color: #dbe4ff;
+  display: flex;
+}
+
+.education_div {
+  width: 50%;
+}
+
+footer {
+  background-color: #edf2ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rs_logo {
+  width: 15%;
+}
+
+.footer-year {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-bottom: 0;
+  width: 30%;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.github_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
