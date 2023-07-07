@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -104,16 +105,23 @@ nav a:hover {
   width: 50%;
 }
 
-.skills_ul {
-  list-style: none;
-}
-
-.skills_ul li {
-  margin-bottom: 1rem;
+.skills_ul li,
+.education_ul li,
+.languages_ul li {
+  margin: 0 0 1rem 2rem;
 }
 
 .code {
   padding: 2rem;
   display: inline-block;
   background-color: #dbe4ff;
+}
+
+.education {
+  background-color: #dbe4ff;
+  display: flex;
+}
+
+.education_div {
+  width: 50%;
 }
