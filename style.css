@@ -125,3 +125,31 @@ nav a:hover {
 .education_div {
   width: 50%;
 }
+
+footer {
+  background-color: #edf2ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rs_logo {
+  width: 15%;
+}
+
+.footer-year {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-bottom: 0;
+  width: 30%;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.github_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
