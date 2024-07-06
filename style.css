@@ -2,3 +2,69 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: sans-serif;
+
+  color: #113719;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 50px 0;
+}
+
+.header-img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.header-name-nav-box {
+  max-width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-size: 18px;
+  padding: 8px 16px;
+  color: #113719;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+
+.nav-list a:hover,
+.nav-list a:active {
+  color: #fff;
+  background-color: #2b8a3e;
+}
