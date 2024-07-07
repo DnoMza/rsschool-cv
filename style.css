@@ -151,4 +151,25 @@ code {
   display: inline-block;
   width: 100%;
   background-color: #f8f9fa;
+  padding: 40px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #f8f9fa;
+}
+
+.footer--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 20px 0;
+}
+
+.github-icon,
+.rsschool-icon {
+  width: 80px;
+  height: 80px;
 }
