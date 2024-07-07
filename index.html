@@ -84,6 +84,29 @@
           </div>
         </div>
       </section>
+      <section class="code">
+        <div class="container code--container">
+          <h2>Code example</h2>
+          <code>
+            <pre>
+              
+              function sortMyString(S) {
+                let evenArr=[];
+               let oddArr=[];
+               for(let i=0; i&#60;S.length; i++){
+                 if(i==0 || i%2==0){
+                   evenArr.push(S[i])
+                 } else {
+                   oddArr.push(S[i])
+                 }
+               }
+               return `${evenArr.join('')} ${oddArr.join('')}`
+             }
+             </pre
+            >
+          </code>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
